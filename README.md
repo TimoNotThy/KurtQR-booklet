@@ -1,4 +1,12 @@
 # KurtQR-booklet
-Booklet to use instead of scanning the QR-code for KURT
+Bookmarklet to use instead of scanning the QR-code for KURT. I made this because i found that scanning the QR-code and logging in on Toledo was too inefficient, with this bookmarklet I don't even have to type the link, only the ID.
 
-To install the bookmarklet, grab [this](javascript%3A+%28%28%29+%3D%3E+%7Bwindow.location.replace%28%22https%3A%2F%2Fwww.kuleuven.be%2Fkurtqr%3Fid%3D%22.concat%28prompt%28%22ID+on+the+KurtQR+link%22%2C+%22300000%22%29%29%29%3B%7D%29%28%29%3B) and move it to your bookmarks toolbar.
+## What is a bookmarklet?
+A bookmarklet is a javascript function that you add to you bookmarks toolbar.
+
+## Installation
+Right click on your bookmarks toolbar and select `add bookmark`. Name it anything you want (or leave it empty so it's small) and paste the following in the URL-field:
+```
+javascript: (() => {window.location.replace("https://www.kuleuven.be/kurtqr?id=".concat(prompt("ID on the KurtQR link", "300000")));})();
+```
+Tip: Holding control when clicking a bookmark/bookmarklet makes it open in a new tab instead of you current tab.
