@@ -1,5 +1,5 @@
 # KurtQR-bookmarklet
-Bookmarklet to use instead of scanning the QR-code for [KURT](https://bib.kuleuven.be/english/facilities/reservations "KU Leuven Reservation Tool"). I made this because i found that scanning the QR-code and logging in on Toledo was too inefficient, with this bookmarklet I don't even have to type the link, only the ID.
+Bookmarklet to use instead of scanning the QR-code for [KURT](https://bib.kuleuven.be/english/facilities/reservations "KU Leuven Reservation Tool") (KU Leuven Reservation Tool). I made this because i found that scanning the QR-code and logging in on Toledo was too inefficient, with this bookmarklet I don't even have to type the link, only the ID.
 
 ## What is a bookmarklet?
 A bookmarklet is a javascript function that you add to you bookmarks toolbar.
