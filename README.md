@@ -7,6 +7,5 @@ A bookmarklet is a javascript function that you add to you bookmarks toolbar.
 ## Installation
 Right click on your bookmarks toolbar and select `add bookmark`. Name it anything you want (or leave it empty so it's small) and paste the following in the URL-field:
 ```js
-javascript:(()=>{window.location.replace("https://www.kuleuven.be/kurtqr?id=".concat(prompt("ID on the KurtQR link","300000")));})();
+javascript:(()=>{window.open("https://www.kuleuven.be/kurtqr?id=".concat(prompt("ID on the KurtQR link","300000")));})();
 ```
-Tip: Holding control when clicking a bookmark/bookmarklet makes it open in a new tab instead of you current tab.
