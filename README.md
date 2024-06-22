@@ -9,3 +9,7 @@ Right click on your bookmarks toolbar and select `add bookmark`. Name it anythin
 ```js
 javascript:(()=>{window.open("https://www.kuleuven.be/kurtqr?id="+prompt("ID on the KurtQR link","300000"));})();
 ```
+Or if you have disabled pop-ups in your browser settings use this version that doesn't always open a new tab:
+```js
+javascript:(()=>{window.location.replace("https://www.kuleuven.be/kurtqr?id="+prompt("ID on the KurtQR link","300000"));})();
+```
